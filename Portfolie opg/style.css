@@ -1,0 +1,766 @@
+/* Side 1: Forside "home" */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+.header img{
+    width: 200px;
+}
+
+.header a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.header a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;   
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+}
+
+.some{
+    display: flex;
+    justify-content: center;
+}
+
+.some img{
+    width: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+.billeder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.billeder img{
+    width: 30%;
+}
+
+
+
+
+/* Side 2: portfolio styling */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.servicesheader img{
+    width: 200px;
+}
+
+.servicesheader{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.servicesheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.servicesheader a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(168, 131, 151) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(168, 131, 151);
+    
+}
+
+.box img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
+.servicesheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.servicesheader a:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+.some2{
+    display: flex;
+    justify-content: center;
+}
+
+.some2 img{
+    width: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+
+
+/* Side 3: Makeup-artist styling */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.makeuptekst{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 15px;
+    align-items: center;
+    width: 79%;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.makeupartistheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.makeupartistheader a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+
+.makeupartistheader img{
+    width: 200px;
+}
+
+.makeupartistheader{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.makeupartistheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.makeupartistheader a:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+
+
+.youtubevideo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.some3{
+    display: flex;
+    justify-content: center;
+}
+
+.some3 img{
+    width: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+.makeupbilleder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.makeupbilleder img{
+    width: 31%;
+}
+
+.makeupbilleder2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.makeupbilleder2 img{
+    width: 31%;
+}
+
+
+
+
+/* Side 4: About me styling*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.aboutmeheader img{
+    width: 200px;
+}
+
+.aboutmeheader{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.aboutmeheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.aboutmeheader a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.aboutmeheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.aboutmeheader a:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 40p;
+    font-weight: 300;
+
+}
+
+
+
+.billedetekst{
+
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+
+}
+
+.billedetekst p{
+    width: 40%;
+}
+ 
+.billedetekst img{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+
+}
+
+.some4{
+    display: flex;
+    justify-content: center;
+}
+
+.some4 img{
+    width: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+
+
+
+
+/* Side 5: Contact styling */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contactheader img{
+    width: 200px;
+}
+
+.contactheader{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contactheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.contactheader a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.contactheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.contactheader a:hover{
+    background-color: rgb(255, 255, 255)
+}
+
+.contact {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    
+}
+
+.contactme{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contact p{
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+    
+}
+
+.input {
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(114, 85, 101);
+}
+
+.msg {
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgb(114, 85, 101);
+    
+    
+}
+
+.send {
+    padding: 20px; 
+    width: 10%;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.send:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(114, 85, 101);
+    background-color: white;
+}
+
+
+.some5{
+    display: flex;
+    justify-content: center;
+}
+
+.some5 img{
+    width: 25px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+/* References style */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.referencesheader img{
+    width: 200px;
+}
+
+
+.referencesheader{
+
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.refrencesheader a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(146, 143, 145);
+    padding: 4px;
+}
+
+.referencesheader a:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(114, 85, 101); 
+}
+
+body{
+
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.referencelogo1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.referencelogo1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    
+}
+
+.refernecelogo2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo4{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding: 40px;
+   
+    
+}
+
+.logo5{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding-right: 35px;
+
+}
+
+.logo6{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding-right: 40px;
+
+}
+
+.logo7{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.logo8{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.logo9{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.logo13{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding-right: 115px;
+    padding-left: 40px;
+
+}
+
+.logo14{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding-right: 130px;
+
+}
+
+.logo15{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    
+}
+
+
+.referencelogo3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.refernecelogo3{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding: 20px;
+}
+
+
+.referencelogo4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.referencelogo4 img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    padding-bottom: 30px;
+    
+}
+
+.referencelogo5{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.referencelogo6{
+    display: flex;
+    justify-content: space-around;
+}
+
+.referencelogo6 img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+
+}
+
+
+
